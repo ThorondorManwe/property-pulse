@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+A project to rent properties made with Next.js and MongoDB, as part of the course Next.js From Scratch 2024 by Brad Traversy
+
 ## Getting Started
 
 First, run the development server:
