@@ -1,9 +1,15 @@
-import React from 'react'
+"use client";
+
+import React from "react";
+
 
 const PropertyPage = () => {
+  
   return (
-    <div>PropertyPage</div>
-  )
-}
+    <div>
+      PropertyPage
+    </div>
+  );
+};
 
-export default PropertyPage
+export default PropertyPage;
