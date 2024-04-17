@@ -5,13 +5,13 @@ import { fetchProperties } from "../utils/requests";
 
 const HomeProperties = async () => {
 
-  const properties = await fetchProperties();
+  const data = await fetchProperties();
 
 
   // Sort properties by date
   // properties.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 
-  const recentProperties = properties
+  const recentProperties = data.properties
     .sort(() => Math.random() - Math.random())
     .slice(0, 3);
 
